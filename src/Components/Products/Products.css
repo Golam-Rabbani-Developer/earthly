@@ -1,0 +1,15 @@
+.iiz>.iiz__btn .iiz__hint {
+    display: none;
+}
+
+.iiz>.iiz__hint::before {
+    display: none;
+}
+
+.transparent_text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, red, blue);
+}

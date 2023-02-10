@@ -1,0 +1,27 @@
+[
+    {
+        "brand": "Earthly",
+        "watch_name": "Earthly S22 5G",
+        "slug": "samsung_galaxy_s22_5g-11253",
+        "image": "http://cdn.shopify.com/s/files/1/0267/3534/5709/products/mega.jpg?v=1664963329",
+        "desc": "making and receiving calls, sending messages, and playing music",
+        "price": "$39"
+    },
+    {
+        "brand": "Earthly",
+        "watch_name": "Earthly F32 S8+",
+        "slug": "samsung_galaxy_tab_s8+-11342",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDhDAsPB-e1OwJ00a0ZfNZYUWDhiT68O0Cv347ySHHqe2fWltTmoOIpz-vf2hp9gPBpAY&usqp=CAU",
+        "desc": "built-in fitness tracking features, such as a heart rate monitor, GPS, and step tracker",
+        "price": "$49",
+        "new": true
+    },
+    {
+        "brand": "Earthly",
+        "watch_name": "Earthly S8 Ultra",
+        "slug": "samsung_galaxy_tab_s8_ultra-11274",
+        "image": "https://m.media-amazon.com/images/I/41zSb8-SITL._SX300_SY300_QL70_ML2_.jpg",
+        "desc": "custom operating system, and may offer a variety of customizable watch faces and interchangeable bands.",
+        "price": "$29"
+    }
+]

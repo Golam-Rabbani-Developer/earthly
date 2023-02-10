@@ -1,0 +1,20 @@
+.menu_item:hover {
+    background-color: #0066ff00;
+}
+
+.menu_item::before {
+    content: '';
+    background-color: #0e1929bb;
+    width: 0;
+    height: 3px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+    transition: all 0.8s;
+}
+
+.menu_item:hover::before {
+    visibility: visible;
+    width: 65%;
+}

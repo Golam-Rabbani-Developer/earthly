@@ -1,0 +1,38 @@
+.primary_btn {
+    position: relative;
+    padding: 10px 15px;
+    background-color: rgb(143, 16, 16);
+    color: white;
+    width: 120px;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 1000;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 4px 4px solid white;
+}
+
+.primary_btn::before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0.0001px;
+    height: 0.00001px;
+    background-color: rgb(5, 5, 87);
+    transition: all 0.4s;
+    z-index: 100;
+    border-radius: 30px;
+}
+
+.primary_btn:hover::before {
+    width: 100%;
+    height: 100%;
+    color: white;
+    z-index: -99;
+}
+
+.primary_btn:hover {
+    color: white;
+    z-index: 10000;
+}
